@@ -1,0 +1,15 @@
+@media(max-width: 500px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media(max-width: 364px){
+    .formcontent{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+    h1{
+        font-size: 1em;
+    }
+}

@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/responsivo.css">
+    <title>Média dos Alunos</title>
 </head>
 <body>
-    <script src="objetopessoa.js"></script>
+    <div class="coisas-topo">
+        <h1>Calcule a média de seus alunos</h1>
+        <div class="div-button">
+            <button class="button mediaA">Média Aritimética</button>
+            <button class="button mediaP">Média Ponderada</button>
+        </div>
+    </div>
+    <div id="divform">
+        <form action="" id="form">
+        <div class="formcontent">
+            <div>
+                <div>
+                    <label for="nota1">Nota 1</label>
+                    <input class="inpnota" type="text" name="nota1" id="nota1" placeholder="Digite a Nota">
+                </div>
+    
+                <div>
+                    <label for="nota2">Nota 2</label>
+                    <input class="inpnota" type="text" name="nota2" id="nota2" placeholder="Digite a Nota">
+                </div>
+    
+                <div>
+                    <label for="nota3">Nota 3</label>
+                    <input class="inpnota" type="text" name="nota3" id="nota3" placeholder="Digite a Nota">
+                </div>
+                <div>
+                    <label for="nota4">Nota 4</label>
+                    <input class="inpnota" type="text" name="nota4" id="nota4" placeholder="Digite a Nota">
+                </div>
+    
+                <div>
+                    <label for="nota5">Nota 5</label>
+                    <input class="inpnota" type="text" name="nota5" id="nota5" placeholder="Digite a Nota">
+                </div>
+            </div>
+                <div class="divpesoall">
+                    <div class="divpeso">
+                        <label for="nota1mp">Peso Nota 1</label>
+                        <input class="inpMP" type="text" name="nota1mp" id="nota1mp" placeholder="Peso 1">
+                    </div>
+                    <div class="divpeso">
+                        <label for="nota2mp">Peso Nota 2</label>
+                        <input class="inpMP" type="text" name="nota2mp" id="nota2mp" placeholder="Peso 2">
+                    </div>
+                    <div class="divpeso">
+                        <label for="nota3mp">Peso Nota 3</label>
+                        <input class="inpMP" type="text" name="nota3mp" id="nota3mp" placeholder="Peso 3">
+                    </div>
+                    <div class="divpeso">
+                        <label for="nota4mp">Peso Nota 4</label>
+                        <input class="inpMP" type="text" name="nota4mp" id="nota4mp" placeholder="Peso 4">
+                    </div>
+                    <div class="divpeso">
+                        <label for="nota5mp">Peso Nota 5</label>
+                        <input class="inpMP" type="text" name="nota5mp" id="nota5mp" placeholder="Peso 5">
+                    </div>
+        </div>
+
+            </div>
+            <div class="divb">
+                <button id="btnsubmit" type="submit">Enviar</button>
+                <button id="btnclose">Fechar</button>
+            </div>
+        </form>
+        <p id="valor"></p>
+        <p id="valorp"></p>
+    </div>
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

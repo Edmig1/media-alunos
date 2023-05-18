@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgb(41, 4, 4) 0%, rgb(33, 28, 28) 100%, rgb(255, 55, 0)100%);
+}
+.coisas-topo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .button{
+        background-color: rgb(231, 14, 57);
+    color: white !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    }
+}
+.coisas-topo h1{
+    margin: 5vh 5vh;
+    color: white !important
+}
+form{
+    display: none;
+}
+form input{
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 2px;
+    background-color: transparent !important;
+    color: rgb(255, 255, 255) !important
+}
+form input::placeholder{
+        color: rgba(255, 255, 255, 0.626);
+}
+
+form div label{
+    color: white !important;
+    display: block;
+    padding: 5px;
+}
+.divpesoall div input{
+    width: fit-content;
+}
+#divform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divb{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-button button, .divb button{
+    position: relative;
+    background-color: rgb(231, 14, 57);
+    color: white !important;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 10px;
+    transition: 0.1s ease-in-out;
+}
+.div-button button:hover, .divb button:hover{
+    background-color: rgb(179, 9, 43);
+}
+.mediaA, .mediaP{
+    cursor: pointer;
+}
+#valor, #valorp{
+    margin-top: 5px;
+    color: white;
+}
