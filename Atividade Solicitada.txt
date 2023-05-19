@@ -1,0 +1,15 @@
+Situação problema:
+
+A professora Maria, do Ensino Médio, está tendo dificuldades em calcular a média de seus alunos e determinar se passaram ou não. Ela atribui 5 notas para cada um de seus alunos ao longo do semestre e precisa calcular a média dessas notas. A nota de aprovação é 7, a nota para exame é entre 5 e 6.9, e qualquer nota abaixo de 5 resulta em reprovação.
+
+Porém, a dificuldade surge quando ela tem que lidar com diferentes tipos de média. Para algumas disciplinas, ela usa a média aritmética, que simplesmente soma todas as notas e divide pelo número total de notas. Para outras disciplinas, ela usa a média ponderada, onde algumas notas têm um peso maior do que outras na determinação da média final. Por exemplo, o projeto final pode ter um peso de 2, enquanto todos os outros trabalhos têm um peso de 1.
+
+Por causa disso, a professora Maria precisa de um sistema que permita adicionar 5 notas, calcular tanto a média aritmética quanto a ponderada, e então informar se o aluno foi aprovado, ficou de exame ou foi reprovado.
+
+Requisitos do Sistema:
+O sistema deve permitir à professora Maria inserir 5 notas para cada aluno.
+O sistema deve permitir que a professora Maria selecione se deseja calcular a média aritmética ou a média ponderada dessas notas.
+Se a média ponderada for selecionada, o sistema deve permitir à professora Maria atribuir pesos a cada nota.
+O sistema deve calcular a média das notas com base na seleção da professora Maria.
+O sistema deve informar à professora Maria se o aluno foi aprovado (média maior ou igual a 7), ficou de exame (média entre 5 e 6.9), ou foi reprovado (média abaixo de 5).
+O sistema deve permitir à professora Maria repetir esse processo para todos os alunos em suas classes.
