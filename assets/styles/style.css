@@ -13,7 +13,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
     .button{
         background-color: rgb(231, 14, 57);
     color: white !important;
@@ -24,7 +23,7 @@ body{
     }
 }
 .coisas-topo h1{
-    margin: 5vh 5vh;
+    margin-top: 5vh;
     color: white !important
 }
 form{
@@ -83,4 +82,23 @@ form div label{
 #valor, #valorp{
     margin-top: 5px;
     color: white;
+}
+.divimg{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+}
+.divimg div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+    text-decoration: none;
+}
+.divimg div img{
+    width: 30px;
+    margin: 5px 10px;
 }

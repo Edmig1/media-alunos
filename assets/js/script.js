@@ -1,4 +1,4 @@
-// *----------Objeto!
+// *----------Objeto Aluno com dois objetos aninhados. notas e pesos!
 var aluno = {
     notas: {
         nota1: 0,
@@ -33,7 +33,7 @@ var aluno = {
         valorp.innerHTML = "A média Ponderada do aluno foi: " + media2.toFixed(2)
     }
 }
-// ? Atribuindo Valores!
+// ? Atribuindo Valores dos inputs aos objetos notas e pesos!
 var btn = document.getElementById('form')
 btn.addEventListener('submit', function (event) {
     event.preventDefault()
@@ -66,7 +66,6 @@ btn.addEventListener('submit', function (event) {
         aluno.media()
     }
 })
-
 // Todo-- Funcionalidades de Display!
 var divform = document.getElementById('form')
 var mediaA = document.getElementsByClassName('mediaA')[0]
